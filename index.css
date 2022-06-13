@@ -1,16 +1,79 @@
-
+.body {
+  background-color: #000000;
+}
 
 .page {
   min-width: 320px;
-  background-color: #000000;
   color: white;
   font-family: Inter, Arial, sans-serif;
 }
 
-
 .page__content {
-  max-width: 882px;
   margin: 0 auto;
-  padding-top: 45px;
-  padding-bottom: 60px;
+  padding: 0 10px;
+}
+
+.header {
+margin: 0 auto;
+padding: 100px;
+}
+
+.header__logo {
+  background: url(./images/logo.png) no-repeat center;
+  height: 90px;
+}
+
+.main {
+  padding: 10px
+}
+
+.nav {
+  height: 55vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.grid {
+border-radius: 65px;
+
+}
+
+.grid_blue {
+ background-color: #2900e8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+
+}
+
+.grid_white {
+  background-color: #fff;
+}
+
+.grid_black {
+background-color: #1B1B1F;
+}
+
+.grid_yellow{
+background-color: #FFF480;
+grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+
+.proposal {
+  border: 1px solid yellow;
+}
+
+.sliders {
+  border: 1px solid yellow;
+}
+
+.contacts {
+  border: 1px solid yellow;
+}
+
+.footer {
+  border: 1px solid yellow;
 }
