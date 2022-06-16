@@ -17,7 +17,9 @@ src: url('./fonts/satoshi-regular-webfont.woff2')format('woff2');
 font-weight: bold;
 }
 
-
+* {
+  box-sizing: border-box;
+}
 
 
 .body {
@@ -119,19 +121,40 @@ font-weight: bold;
 
 
 .proposal_olive {
-  background-color: #1D1C16;
+background-color: #1D1C16;
  color: #D4C951;
 }
 
 
-.sliders {
-  border: 1px solid yellow;
+.contact-us {
+background-color: #000000;
+
 }
 
-.contacts {
-  border: 1px solid yellow;
+.contact-us input  {
+padding: 10px;
+border: none;
+border-radius: 20px;
+background-color: #1D1C16;
+color: #D4C951;
+outline: none;
+}
+
+
+
+
+.contact-us input::placeholder {
+  color: #D4C951;
 }
 
 .footer {
-  border: 1px solid yellow;
+}
+
+.footer__logo {
+  background-image: url(./images/footer_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 90px;
+
+
 }
