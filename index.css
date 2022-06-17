@@ -104,8 +104,13 @@
   flex-direction: row;
 }
 
+.proposal__column-left {
+  width: 80%;
+}
+
+
 .proposal__text-container {
-  display: flexbox;
+  display: flex;
   flex-direction: column;
 }
 
@@ -135,24 +140,54 @@
 
 .links {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  grid-gap: 10px;
-
-
+  grid-gap: 20px;
 }
 
 .links a {
   color: #FFF480;
   border: 3px solid #FFF480;
   background-color: #1d1c16;
-  padding: 42px 48px;
+  padding: 10px 20px;
   border-radius: 60px;
+  text-decoration: none;
+}
 
+.email {
+margin: 5px;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+
+.tel {
+  margin: 5px;
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.fb {
+  background-image: url(./images/fb_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 30px;
+}
+
+.inst {
+  background-image: url(./images/inst_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 30px;
+}
+
+.linkedin {
+  background-image: url(./images/linkedin_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 30px;
 }
 
 .contact-us {
-
   background-color: #000000;
   padding: 40px;
   min-height: 100px;
