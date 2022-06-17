@@ -133,10 +133,29 @@
   color: #d4c951;
 }
 
+.links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+
+
+}
+
+.links a {
+  color: #FFF480;
+  border: 3px solid #FFF480;
+  background-color: #1d1c16;
+  padding: 42px 48px;
+  border-radius: 60px;
+
+}
+
 .contact-us {
 
   background-color: #000000;
   padding: 40px;
+  min-height: 100px;
 }
 
 .contact-us__form {
@@ -144,35 +163,40 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
+  height: 60vh;
 }
 
 .contact-us input {
   background-color: #1d1c16;
-  color: #d4c951;
+  color: #FFF480;
   padding: 42px 48px;
   border: none;
-  border-radius: 50px;
+  border-radius: 60px;
   outline: none;
 
 }
 
 .contact-us input::placeholder {
-  color: #d4c951;
+  color: #FFF480;
 
 }
 
+.contact-us #message {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+
 .contact-us__btn {
-  background-color: #d4c951;
+  background-color: #FFF480;
   color: black;
   border-radius: 50px;
   padding: 42px 48px;
-  text-align: left;
+  text-align: center;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 4;
-
-
 }
 
 .footer {
