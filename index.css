@@ -72,12 +72,26 @@ a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  font-weight: bold;
 
 }
 
-.cell__container-top {
-  
+.cell__container-bottom {
+font-size: 18px;
+text-decoration: none;
+display: flex;
+flex-direction: row;
 }
+
+.cell__logo {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 30px;
+  width: 30px;
+  align-self: flex-end;
+}
+
 
 .block__settings {
   border-radius: 65px;
@@ -93,14 +107,17 @@ a {
 
 .nav__cell_white {
   background-color: #fff;
+  color: black;
 }
 
 .nav__cell_black {
   background-color: #1b1b1f;
+  color: white;
 }
 
 .nav__cell_yellow {
   background-color: #fff480;
+  color: black;
   grid-column-start: 2;
   grid-column-end: 4;
 }
