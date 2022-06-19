@@ -99,7 +99,6 @@ a {
 
 .proposal {
   min-height: 471px;
-  max-width: 100%;
   display: flex;
   flex-direction: row;
   color: #a5a1ff;
@@ -109,12 +108,9 @@ a {
 .proposal__container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
-
-/* .proposal__column-left {
-  /* width: 80%; */
-
-} */
 
 .proposal__text-container {
   display: flex;
@@ -129,17 +125,31 @@ a {
   font-size: 70px;
 }
 
+.proposal__column-right {
+  align-self: flex-end;
+}
+
 .proposal__logo {
   background-image: url(./images/contacts_logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 90px;
   width: 100px;
+
+}
+
+
+.proposal__logo_purple {
+  background-image: url(./images/contacts_logo_purple.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 90px;
+  width: 100px;
+  align-self: flex-end;
 }
 
 .proposal__contact-form {
   padding: 20px;
-  width: 100%;
 }
 
 .proposal_olive {
@@ -170,7 +180,6 @@ a {
   margin: 5px;
   grid-column-start: 1;
   grid-column-end: 3;
-
 }
 
 .tel {
@@ -208,15 +217,14 @@ a {
 
 .contact-us {
   background-color: #000000;
-  padding: 40px;
-  min-height: 100px;
+  padding: 30px;
   height: 60vh;
 }
 
 .contact-us__form {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 10px;
 }
 
@@ -238,6 +246,8 @@ a {
 .contact-us #message {
   grid-column-start: 1;
   grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
 }
 
 .contact-us__btn {
@@ -249,14 +259,14 @@ a {
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 5;
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
 }
 
 .footer {
-  padding: 40px;
+  padding: 80px;
 }
 
 .footer__logo {
