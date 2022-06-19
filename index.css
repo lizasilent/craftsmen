@@ -68,30 +68,38 @@ a {
   padding: 10px;
 }
 
-.grid {
+.nav__cell {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+
+}
+
+.cell__container-top {
+  
+}
+
+.block__settings {
   border-radius: 65px;
   padding: 50px;
 }
 
-.grid_blue {
+.nav__cell_blue {
   background-color: #2900e8;
   grid-row-start: 1;
   grid-row-end: 4;
+  color: white;
 }
 
-/* .grid_blue:hover {
-  cursor: pointer;
-} */
-
-.grid_white {
+.nav__cell_white {
   background-color: #fff;
 }
 
-.grid_black {
+.nav__cell_black {
   background-color: #1b1b1f;
 }
 
-.grid_yellow {
+.nav__cell_yellow {
   background-color: #fff480;
   grid-column-start: 2;
   grid-column-end: 4;
@@ -99,8 +107,6 @@ a {
 
 .proposal {
   min-height: 471px;
-  display: flex;
-  flex-direction: row;
   color: #a5a1ff;
   margin: 20px;
 }
@@ -109,12 +115,12 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
 }
 
 .proposal__text-container {
   display: flex;
   flex-direction: column;
+
 }
 
 .text {
@@ -135,7 +141,7 @@ a {
   background-size: contain;
   min-height: 90px;
   width: 100px;
-
+  align-self: flex-end;
 }
 
 
@@ -274,4 +280,6 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 90px;
+  width: 90px;
+  margin: 0 auto;
 }
