@@ -60,20 +60,49 @@ a {
 }
 
 .nav {
-  height: 55vh;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
   padding: 10px;
+
 }
 
 .nav__cell {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  font-weight: bold;
+  align-content: center;
+  /* height: 50vh; */
 
+}
+
+.cell__container-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  align-items: center;
+}
+
+.cell__container-middle {
+ white-space: nowrap;
+
+}
+
+.cell__text-huge {
+  display: block;
+  font-size: 72px;
+  margin: 0;
+  overflow: hidden;
+  width: 30vw;
+}
+
+.cell__text-middle {
+  display: block;
+  font-size: 54px;
+  margin: 0;
+  overflow: hidden;
 }
 
 .cell__container-bottom {
@@ -81,15 +110,38 @@ font-size: 18px;
 text-decoration: none;
 display: flex;
 flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
 
 .cell__logo {
-  background-image: url();
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 30px;
   width: 30px;
-  align-self: flex-end;
+}
+
+.cell__logo-top {
+  background-image: url(./images/cell-logo.png);
+  min-height: 50px;
+  width: 50px;
+}
+
+.cell__logo_blue {
+  background-image: url(./images/cell-bottom_logo.png);
+
+}
+
+.cell__logo_white {
+  background-image: url(./images/icon-tab.png);
+}
+
+.cell__logo_black {
+  background-image: url(./images/icon-build.png);
+}
+
+.cell__logo_yellow {
+  background-image: url(./images/icon-send.png);
 }
 
 
@@ -103,16 +155,19 @@ flex-direction: row;
   grid-row-start: 1;
   grid-row-end: 4;
   color: white;
+  /* width: 50vw; */
 }
 
 .nav__cell_white {
   background-color: #fff;
   color: black;
+  width: 25vw;
 }
 
 .nav__cell_black {
   background-color: #1b1b1f;
   color: white;
+  width: 25vw;
 }
 
 .nav__cell_yellow {
@@ -120,13 +175,16 @@ flex-direction: row;
   color: black;
   grid-column-start: 2;
   grid-column-end: 4;
+  width: 50vw;
 }
 
 .proposal {
+  background-color: #1b1b1f;
   min-height: 471px;
   color: #a5a1ff;
   margin: 20px;
 }
+
 
 .proposal__container {
   display: flex;
