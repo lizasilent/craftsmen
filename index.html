@@ -147,14 +147,14 @@
 
           <div class="contact-us">
             <form class="contact-us__form" name="contact-us">
-              <input class="contact-us__input"
+              <!-- <input class="contact-us__input"
                 type="text"
                 name="name"
                 id="name"
                 placeholder="Name"
                 required
                 novalidate
-              />
+              /> -->
               <input class="contact-us__input"
                 type="email"
                 name="email"
@@ -163,6 +163,8 @@
                 required
                 novalidate
               />
+              <span class="contact-us__error-msg" id="email__error">Необходимо заполнить данное поле</span>
+
               <input class="contact-us__input"
                 type="text"
                 name="subject"

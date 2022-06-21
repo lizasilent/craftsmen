@@ -321,6 +321,19 @@ align-items: center;
 }
 
 
+.contact-us__input_error {
+  border: 1px solid red;
+}
+
+.contact-us__error-msg {
+display: none;
+color: red;
+}
+
+.contact-us__error-msg_active {
+  display: initial;
+}
+
 .contact-us input::placeholder {
   color: #fff480;
 }
