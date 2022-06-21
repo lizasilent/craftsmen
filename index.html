@@ -146,36 +146,40 @@
           </div>
 
           <div class="contact-us">
-            <form class="contact-us__form">
-              <input
+            <form class="contact-us__form" name="contact-us">
+              <input class="contact-us__input"
                 type="text"
                 name="name"
                 id="name"
                 placeholder="Name"
                 required
+                novalidate
               />
-              <input
+              <input class="contact-us__input"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="Email"
                 required
+                novalidate
               />
-              <input
+              <input class="contact-us__input"
                 type="text"
                 name="subject"
                 id="subject"
                 placeholder="Subject"
                 required
+                novalidate
               />
-              <input
+              <input class="contact-us__input"
                 type="text"
                 name="message"
                 id="message"
                 placeholder="Message"
                 required
+                novalidate
               />
-              <button class="contact-us__btn">Send</button>
+              <button class="contact-us__btn" type="submit">Send</button>
             </form>
           </div>
         </main>
@@ -185,6 +189,7 @@
         </footer>
       </div>
     </div>
-    <!-- <script src="./index.js"></script> -->
+    <script src="./index.js"></script>
+    <script src="./validation.js"></script>
   </body>
 </html>

@@ -298,8 +298,8 @@ align-items: center;
 
 .contact-us {
   background-color: #000000;
-  padding: 30px;
-  height: 60vh;
+  padding: 10px 30px;
+  /* height: 60vh; */
 }
 
 .contact-us__form {
@@ -319,6 +319,7 @@ align-items: center;
   font-size: 20px;
   font-weight: bold;
 }
+
 
 .contact-us input::placeholder {
   color: #fff480;
