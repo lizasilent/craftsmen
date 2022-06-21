@@ -146,7 +146,7 @@
           </div>
 
           <div class="contact-us">
-            <form class="contact-us__form" name="contact-us">
+            <form class="contact-us__form" name="contact-us" novalidate>
               <input class="contact-us__input"
                 type="text"
                 name="name"
@@ -154,7 +154,7 @@
                 placeholder="Name"
                 minlength="2"
                 required
-                novalidate
+
               />
               <span class="contact-us__error-msg" id="name-error"></span>
 
@@ -164,7 +164,7 @@
                 id="email"
                 placeholder="Email"
                 required
-                novalidate
+
               />
               <span class="contact-us__error-msg" id="email-error"></span>
 
@@ -174,7 +174,7 @@
                 id="subject"
                 placeholder="Subject"
                 required
-                novalidate
+
               />
               <span class="contact-us__error-msg" id="subject-error"></span>
 
@@ -185,7 +185,7 @@
                 id="message"
                 placeholder="Message"
                 required
-                novalidate
+                
               />
 
               <span class="contact-us__error-msg" id="message-error">проверка</span>
