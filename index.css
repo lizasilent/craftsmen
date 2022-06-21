@@ -321,7 +321,7 @@ align-items: center;
 }
 
 
-.contact-us__input_error {
+.contact-us__error-style {
   border: 1px solid red;
 }
 
@@ -331,7 +331,11 @@ color: red;
 }
 
 .contact-us__error-msg_active {
-  display: initial;
+  display: block;
+}
+
+.form__submit_inactive {
+  opacity: 0.3;
 }
 
 .contact-us input::placeholder {

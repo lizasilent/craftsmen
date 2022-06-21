@@ -147,14 +147,17 @@
 
           <div class="contact-us">
             <form class="contact-us__form" name="contact-us">
-              <!-- <input class="contact-us__input"
+              <input class="contact-us__input"
                 type="text"
                 name="name"
                 id="name"
                 placeholder="Name"
+                minlength="2"
                 required
                 novalidate
-              /> -->
+              />
+              <span class="contact-us__error-msg" id="name-error"></span>
+
               <input class="contact-us__input"
                 type="email"
                 name="email"
@@ -163,7 +166,7 @@
                 required
                 novalidate
               />
-              <span class="contact-us__error-msg" id="email__error">Необходимо заполнить данное поле</span>
+              <span class="contact-us__error-msg" id="email-error"></span>
 
               <input class="contact-us__input"
                 type="text"
@@ -173,6 +176,9 @@
                 required
                 novalidate
               />
+              <span class="contact-us__error-msg" id="subject-error"></span>
+
+
               <input class="contact-us__input"
                 type="text"
                 name="message"
@@ -181,7 +187,12 @@
                 required
                 novalidate
               />
-              <button class="contact-us__btn" type="submit">Send</button>
+
+              <span class="contact-us__error-msg" id="message-error">проверка</span>
+
+
+              <button class="contact-us__btn" type="submit" id="button"
+              >Send</button>
             </form>
           </div>
         </main>
