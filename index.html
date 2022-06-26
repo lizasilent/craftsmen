@@ -146,7 +146,8 @@
           </div>
 
           <div class="contact-us">
-            <form class="contact-us__form" name="contact-us" novalidate>
+            <form class="contact-us__form form" name="contact-us" novalidate>
+
               <input class="contact-us__input"
                 type="text"
                 name="name"
@@ -156,7 +157,7 @@
                 required
 
               />
-              <span class="contact-us__error-msg" id="name-error"></span>
+
 
               <input class="contact-us__input"
                 type="email"
@@ -166,7 +167,7 @@
                 required
 
               />
-              <span class="contact-us__error-msg" id="email-error"></span>
+
 
               <input class="contact-us__input"
                 type="text"
@@ -176,7 +177,7 @@
                 required
 
               />
-              <span class="contact-us__error-msg" id="subject-error"></span>
+
 
 
               <input class="contact-us__input"
@@ -185,14 +186,20 @@
                 id="message"
                 placeholder="Message"
                 required
-                
+
               />
 
-              <span class="contact-us__error-msg" id="message-error">проверка</span>
+
 
 
               <button class="contact-us__btn" type="submit" id="button"
               >Send</button>
+
+              <span class="contact-us__error-msg" id="name-error"></span>
+              <span class="contact-us__error-msg" id="email-error"></span>
+              <span class="contact-us__error-msg" id="subject-error"></span>
+              <span class="contact-us__error-msg" id="message-error"></span>
+
             </form>
           </div>
         </main>
