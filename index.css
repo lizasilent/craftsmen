@@ -22,7 +22,6 @@
   box-sizing: border-box;
 }
 
-
 a {
   cursor: pointer;
 }
@@ -66,7 +65,6 @@ a {
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
   padding: 10px;
-
 }
 
 .nav__cell {
@@ -74,13 +72,13 @@ a {
   flex-direction: column;
   text-decoration: none;
   align-content: center;
+  overflow: hidden;
   /* height: 50vh; */
-
 }
 
 .nav__cell:hover {
   transform: scale(0.97, 0.97);
-  transition: .1s linear;
+  transition: 0.1s linear;
 }
 
 .cell__container-top {
@@ -91,64 +89,58 @@ a {
   align-items: center;
 }
 
+
+
 .cell__container-middle {
- white-space: nowrap;
+  white-space: nowrap;
+  /* width: 30vw; */
+  overflow: hidden;
+  margin: 0;
 }
 
-
-
-.cell__text-huge {
-  display: block;
+.cell__text-huge  {
   font-size: 72px;
-  margin: 0;
-  overflow: hidden;
-  width: 30vw;
-  -moz-animation: marquee 10s linear infinite;
-  -webkit-animation: marquee 10s linear infinite;
+  /* margin: 40px 0; */
   animation: marquee 10s linear infinite;
 }
 
-/* @-moz-keyframes marquee {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-  }
-  @-webkit-keyframes marquee {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-  }
-  @keyframes marquee {
+
+@keyframes marquee {
   0% {
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%) }
+    transform: translateX(0);
+  }
   100% {
-  -moz-transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  transform: translateX(-100%); }
-  } */
+    transform: translateX(-100%);
+  }
+}
 
 .cell__text-middle {
   display: block;
-  opacity: 0;;
+  opacity: 0;
   font-size: 54px;
-  margin: 0;
+  margin: 20px 0;
+}
+
+
+.cell__text-middle:hover {
+  opacity: 1;
+  animation: marquee 8s linear infinite;
+}
+
+.cell__container-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   overflow: hidden;
 
 }
 
-.cell__text-middle:hover {
-opacity: 1;
+.cell__text-small {
+  margin: 10px 10px 10px 0;
+  font-size: 18px;
+  text-decoration: none;
 }
-
-.cell__container-bottom {
-font-size: 18px;
-text-decoration: none;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-}
-
 
 .cell__logo {
   background-repeat: no-repeat;
@@ -165,7 +157,6 @@ align-items: center;
 
 .cell__logo_blue {
   background-image: url(./images/cell-bottom_logo.png);
-
 }
 
 .cell__logo_white {
@@ -179,7 +170,6 @@ align-items: center;
 .cell__logo_yellow {
   background-image: url(./images/icon-send.png);
 }
-
 
 .block__settings {
   border-radius: 65px;
@@ -221,7 +211,6 @@ align-items: center;
   margin: 20px;
 }
 
-
 .proposal__container {
   display: flex;
   flex-direction: row;
@@ -231,7 +220,6 @@ align-items: center;
 .proposal__text-container {
   display: flex;
   flex-direction: column;
-
 }
 
 .text {
@@ -246,7 +234,6 @@ align-items: center;
   align-self: flex-end;
 }
 
-
 .proposal__logo {
   background-image: url(./images/contacts_logo.png);
   background-repeat: no-repeat;
@@ -254,8 +241,8 @@ align-items: center;
   min-height: 90px;
   width: 100px;
   align-self: flex-end;
+  animation: rotate 10s linear infinite;
 }
-
 
 .proposal__logo_purple {
   background-image: url(./images/contacts_logo_purple.png);
@@ -264,11 +251,13 @@ align-items: center;
   min-height: 90px;
   width: 100px;
   align-self: flex-end;
+  animation: rotate 10s linear infinite;
 }
 
-.proposal__logo_purple:hover {
-  transform: scale(0.97, 0.97);
-  transition: .1s linear;
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .proposal__contact-form {
@@ -300,12 +289,11 @@ align-items: center;
 }
 
 .links a:hover {
-
   background-color: #fff480;
   color: #1d1c16;
   font-weight: bold;
-  transition: .5s linear;
-  }
+  transition: 0.5s linear;
+}
 
 .email {
   margin: 5px;
@@ -359,7 +347,6 @@ align-items: center;
   grid-gap: 10px;
 }
 
-
 .contact-us__input {
   background-color: #1d1c16;
   color: #fff480;
@@ -376,19 +363,18 @@ align-items: center;
 }
 
 .contact-us__error-msg {
-display: none;
-margin-top: 10px;
-margin-left: 30px;
-color: #fc7039;
-font-size: 14px;
-grid-column-start: 1;
-grid-column-end: 3;
+  display: none;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #fc7039;
+  font-size: 14px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .contact-us__error-msg_active {
   display: inline-block;
 }
-
 
 .contact-us input::placeholder {
   color: #fff480;
@@ -419,7 +405,6 @@ grid-column-end: 3;
 .contact-us__btn_inactive {
   opacity: 0.7;
 }
-
 
 .footer {
   padding: 80px;
