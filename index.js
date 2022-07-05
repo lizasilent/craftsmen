@@ -1,18 +1,27 @@
-// anime({
-//   targets: '.css-transforms-demo .el',
-//   translateX: 250,
-//   scale: 2,
-//   rotate: '1turn'
-// });
+let header = document.querySelector('.header');
 
+function fadeOutOnScroll(element) {
+  if (!element) {
+    return;
+  }
 
-// const navCell = document.querySelector(".nav__cell");
-// const cellTextMiddle = navCell.querySelector(".cell__text-middle");
+  let distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
+  let elementHeight = element.offsetHeight;
+  let scrollTop = document.documentElement.scrollTop;
 
-// navCell.addEventListener("hover", function(){
+  let opacity = 1;
 
-//   console.log("something");
+  if (scrollTop > distanceToTop) {
+    opacity = 1 - (scrollTop - distanceToTop) / elementHeight;
+  }
 
-//   // cellTextMiddle.classList.add(".cell__text-middle_active")
-// })
+  if (opacity >= 0) {
+    element.style.opacity = opacity;
+  }
+}
 
+function scrollHandler() {
+  fadeOutOnScroll(header);
+}
+
+window.addEventListener('scroll', scrollHandler);
