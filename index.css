@@ -92,7 +92,6 @@ a {
 }
 
 
-
 .cell__container-middle {
   white-space: nowrap;
   overflow: hidden;
@@ -122,8 +121,7 @@ a {
   margin: 20px 0;
 }
 
-
-.cell__text-middle:hover {
+ .cell__text-middle:hover {
   opacity: 1;
   animation: marquee 8s linear infinite;
 }
@@ -134,8 +132,6 @@ a {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
-
-
 }
 
 .cell__text-small {
@@ -195,24 +191,24 @@ a {
   background-size: contain;
   min-height: 100px;
   width: 100px;
-  /* animation: move 10s linear infinite; */
+  animation: move 10s linear infinite;
 }
 
 .square {
   position: absolute;
-  top: 200px;
-  left: 300px;
+  top: 220px;
+  left: 260px;
   background-image: url(./images/square.png);
   background-size: contain;
   min-height: 80px;
   width: 80px;
-  /* animation: move 10s linear infinite; */
+  animation: move 10s linear infinite;
 }
 
 .round {
   position: absolute;
-  top: 100px;
-  left: 300px;
+  top: 90px;
+  left: 290px;
   background-image: url(./images/round.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -221,13 +217,17 @@ a {
   animation: move 10s linear infinite;
 }
 
-@keyframes move  {
+@keyframes move {
 
- to {
-    transform: rotate(360deg);
+  50% {
+    transform: rotate(180deg);
   }
 
+ 100% {
+    transform: rotate(360deg);
+    transform-origin: 100% 100%;
 
+ }
 }
 
 .nav__cell_white {
