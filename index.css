@@ -66,6 +66,7 @@ a {
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
   padding: 10px;
+  max-height: 70vh;
 }
 
 .nav__cell {
@@ -74,7 +75,6 @@ a {
   text-decoration: none;
   align-content: center;
   overflow: hidden;
-  /* height: 50vh; */
 }
 
 .nav__cell:hover {
@@ -94,14 +94,13 @@ a {
 
 .cell__container-middle {
   white-space: nowrap;
-  /* width: 30vw; */
   overflow: hidden;
   margin: 0;
 }
 
 .cell__text-huge  {
   font-size: 72px;
-  /* margin: 40px 0; */
+  margin: 40px 0;
   animation: marquee 10s linear infinite;
 }
 
@@ -135,10 +134,11 @@ a {
   align-items: center;
   overflow: hidden;
 
+
 }
 
 .cell__text-small {
-  margin: 10px 10px 10px 0;
+  margin: 10px 0;
   font-size: 18px;
   text-decoration: none;
 }
@@ -182,19 +182,16 @@ a {
   grid-row-start: 1;
   grid-row-end: 4;
   color: white;
-  /* width: 50vw; */
 }
 
 .nav__cell_white {
   background-color: #fff;
   color: black;
-  width: 25vw;
 }
 
 .nav__cell_black {
   background-color: #1b1b1f;
   color: white;
-  width: 25vw;
 }
 
 .nav__cell_yellow {
@@ -202,7 +199,6 @@ a {
   color: black;
   grid-column-start: 2;
   grid-column-end: 4;
-  width: 50vw;
 }
 
 .proposal {
