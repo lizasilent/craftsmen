@@ -55,7 +55,6 @@ a {
   margin: 0 auto;
 }
 
-
 .main {
   padding: 10px;
 }
@@ -68,6 +67,8 @@ a {
   padding: 10px;
   max-height: 70vh;
 }
+
+
 
 .nav__cell {
   display: flex;
@@ -178,10 +179,55 @@ a {
 }
 
 .nav__cell_blue {
+  position: relative;
   background-color: #2900e8;
   grid-row-start: 1;
   grid-row-end: 4;
   color: white;
+}
+
+.triangle {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  background-image: url(./images/треуг.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100px;
+  width: 100px;
+  /* animation: move 10s linear infinite; */
+}
+
+.square {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  background-image: url(./images/square.png);
+  background-size: contain;
+  min-height: 80px;
+  width: 80px;
+  /* animation: move 10s linear infinite; */
+}
+
+.round {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  background-image: url(./images/round.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 80px;
+  width: 80px;
+  animation: move 10s linear infinite;
+}
+
+@keyframes move  {
+
+ to {
+    transform: rotate(360deg);
+  }
+
+
 }
 
 .nav__cell_white {
