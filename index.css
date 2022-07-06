@@ -67,6 +67,7 @@ a {
   grid-gap: 10px;
   padding: 10px;
   max-height: 70vh;
+
 }
 
 
@@ -74,9 +75,9 @@ a {
 .nav__cell {
   display: flex;
   flex-direction: column;
-  text-decoration: none;
-  align-content: center;
+  align-content: space-between;
   overflow: hidden;
+  text-decoration: none;
 }
 
 .nav__cell:hover {
