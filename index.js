@@ -29,18 +29,3 @@ function scrollHandler() {
 window.addEventListener('scroll', scrollHandler);
 
 
-// Big hover animations
-
-
-let navCellWhite = document.querySelector('.nav__cell_white');
-let bottomText = document.navCellWhite(".cell__text-middle");
-
-// function hideElement(element) {
-
-// element.style.opacity="1";
-
-// }
-
-
-// navCellWhite.addEventListener(hover, hideElement(bottomText));
-// // element.style.opacity="1";

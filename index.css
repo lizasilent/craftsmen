@@ -20,6 +20,7 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 a {
@@ -99,7 +100,8 @@ a {
 }
 
 .cell__text-huge  {
-  font-size: 72px;
+  font-size: 90px;
+  font-weight: ;
   margin: 40px 0;
   animation: marquee 10s linear infinite;
 }
@@ -121,9 +123,14 @@ a {
   margin: 20px 0;
 }
 
- .cell__text-middle:hover {
+
+.nav__cell:hover .cell__text-middle {
   opacity: 1;
   animation: marquee 8s linear infinite;
+}
+
+.nav__cell:hover .cell__container-bottom {
+  opacity: 0;
 }
 
 .cell__container-bottom {
@@ -134,9 +141,12 @@ a {
   overflow: hidden;
 }
 
+
+
 .cell__text-small {
   margin: 10px 0;
   font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -182,6 +192,26 @@ a {
   color: white;
 }
 
+.nav__cell:hover .triangle {
+  opacity: 1;
+}
+
+.nav__cell:hover .round  {
+  opacity: 1;
+}
+
+.nav__cell:hover .square{
+  opacity: 1;
+}
+
+.nav__cell_blue:hover .cell__container-bottom{
+opacity: 1;
+}
+
+.nav__cell_blue:hover .cell__container-middle{
+  opacity: 0;
+  }
+
 .triangle {
   position: absolute;
   top: 150px;
@@ -191,7 +221,8 @@ a {
   background-size: contain;
   min-height: 100px;
   width: 100px;
-  animation: move 10s linear infinite;
+  animation: move 5s linear infinite;
+  opacity: 0.5;
 }
 
 .square {
@@ -202,7 +233,8 @@ a {
   background-size: contain;
   min-height: 80px;
   width: 80px;
-  animation: move 10s linear infinite;
+  animation: move 5s linear infinite;
+  opacity: 0.5;
 }
 
 .round {
@@ -214,14 +246,15 @@ a {
   background-size: contain;
   min-height: 80px;
   width: 80px;
-  animation: move 10s linear infinite;
+  animation: move 5s linear infinite;
+  opacity: 0.5;
 }
 
 @keyframes move {
 
-  50% {
+  /* 50% {
     transform: rotate(180deg);
-  }
+  } */
 
  100% {
     transform: rotate(360deg);
