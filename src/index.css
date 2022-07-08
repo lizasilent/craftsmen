@@ -102,7 +102,6 @@ a {
 
 .cell__text-huge  {
   font-size: 90px;
-  font-weight: ;
   margin: 40px 0;
   animation: marquee 10s linear infinite;
 }
