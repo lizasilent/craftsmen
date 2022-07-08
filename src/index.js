@@ -1,4 +1,5 @@
 import './index.css';
+import "./validation.js";
 
 // Header FadeOut
 
