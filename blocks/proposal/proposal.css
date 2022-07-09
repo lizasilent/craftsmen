@@ -1,3 +1,4 @@
+
 @import url(./__column-right/proposal__column-right.css);
 @import url(./__contact-form/proposal__contact-form.css);
 @import url(./__container/proposal__container.css);
@@ -8,11 +9,12 @@
 @import url(./__links/_linkedin/proposal__links_linkedin.css);
 @import url(./__links/_tel/proposal__links_tel.css);
 @import url(./__logo/proposal__logo.css);
+@import url(./_olive/proposal_olive.css);
 @import url(./__logo/_purple/proposal__logo_purple.css);
 @import url(./__text-container/proposal__text-container.css);
 @import url(./__text/proposal__text.css);
 @import url(./__text2/proposal__text2.css);
-@import url(./_olive/proposal_olive.css);
+
 
 .proposal {
   background-color: #1b1b1f;
@@ -20,3 +22,4 @@
   color: #a5a1ff;
   margin: 20px;
 }
+

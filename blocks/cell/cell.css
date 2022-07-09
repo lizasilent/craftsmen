@@ -25,3 +25,39 @@
   overflow: hidden;
   text-decoration: none;
 }
+
+.cell:hover {
+  transform: scale(0.97, 0.97);
+  transition: 0.1s linear;
+}
+
+
+.cell:hover .cell__text-middle {
+  opacity: 1;
+  animation: marquee 8s linear infinite;
+}
+
+.cell:hover .cell__container-bottom {
+  opacity: 0;
+}
+
+
+.cell:hover .nav__triangle {
+  opacity: 1;
+}
+
+.cell:hover .nav__round {
+  opacity: 1;
+}
+
+.cell:hover .nav__square {
+  opacity: 1;
+}
+
+.cell_blue:hover .cell__container-bottom {
+  opacity: 1;
+}
+
+.cell_blue:hover .cell__container-middle {
+  opacity: 0;
+}
