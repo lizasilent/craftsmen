@@ -1,7 +1,0 @@
-.nav__cell {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  overflow: hidden;
-  text-decoration: none;
-}

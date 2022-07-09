@@ -1,5 +1,5 @@
 .proposal__logo {
-  background-image: url(./images/contacts_logo.png);
+  background-image: url(../../../src/images/contacts_logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 90px;

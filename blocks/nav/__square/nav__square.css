@@ -2,7 +2,7 @@
   position: absolute;
   top: 45%;
   left: 30%;
-  background-image: url(./images/square.png);
+  background-image: url(../../../src/images/square.png);
   background-size: contain;
   min-height: 75px;
   width: 75px;

@@ -1,0 +1,27 @@
+@import url(./__container-top/cell__container-top.css);
+@import url(./__container-middle/cell__container-middle.css);
+@import url(./__container-bottom/cell__container-bottom.css);
+@import url(./__logo-top/cell__logo-top.css);
+@import url(./__logo/cell__logo.css);
+@import url(./__logo/_black/cell__logo_black.css);
+@import url(./__logo/_blue/cell__logo_blue.css);
+@import url(./__logo/_white/cell__logo_white.css);
+@import url(./__logo/_yellow/cell__logo_yellow.css);
+@import url(./__settings/cell__settings.css);
+@import url(./__text-huge/cell__text-huge.css);
+@import url(./__text-middle/cell__text-middle.css);
+@import url(./__text-small/cell__text-small.css);
+@import url(./_black/cell_black.css);
+@import url(./_blue/cell_blue.css);
+@import url(./_white/cell_white.css);
+@import url(./_yellow/cell_yellow.css);
+
+
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  overflow: hidden;
+  text-decoration: none;
+}

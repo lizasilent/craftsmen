@@ -1,5 +1,5 @@
 .header__logo {
-  background-image: url(./images/logo.png);
+  background-image: url(../../../src/images/logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 90px;

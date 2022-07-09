@@ -2,7 +2,7 @@
   position: absolute;
   top: 40%;
   left: 50%;
-  background-image: url(./images/треуг.png);
+  background-image: url(../../../src/images/треуг.png);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100px;
