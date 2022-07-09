@@ -1,8 +1,8 @@
 @import url(./__container-top/cell__container-top.css);
 @import url(./__container-middle/cell__container-middle.css);
 @import url(./__container-bottom/cell__container-bottom.css);
-@import url(./__logo-top/cell__logo-top.css);
 @import url(./__logo/cell__logo.css);
+@import url(./__logo-top/cell__logo-top.css);
 @import url(./__logo/_black/cell__logo_black.css);
 @import url(./__logo/_blue/cell__logo_blue.css);
 @import url(./__logo/_white/cell__logo_white.css);

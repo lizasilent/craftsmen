@@ -8,3 +8,15 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+.contact-us input::placeholder {
+  color: #fff480;
+}
+
+.contact-us #message {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
