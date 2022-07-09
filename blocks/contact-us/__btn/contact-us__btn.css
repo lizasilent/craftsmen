@@ -12,3 +12,10 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+/* @media screen and (max-width: 1180px) {
+  .contact-us__form {
+    grid-column-end: 1;
+    grid-column-start: 4;
+  }
+} */
