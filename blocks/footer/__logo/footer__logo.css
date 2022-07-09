@@ -1,0 +1,8 @@
+.footer__logo {
+  background-image: url(./images/footer_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 90px;
+  width: 90px;
+  margin: 0 auto;
+}

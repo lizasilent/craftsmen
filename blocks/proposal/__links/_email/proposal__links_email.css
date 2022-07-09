@@ -1,0 +1,5 @@
+.proposal__links_email {
+  margin: 5px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

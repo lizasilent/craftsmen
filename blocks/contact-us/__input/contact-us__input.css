@@ -1,0 +1,10 @@
+.contact-us__input {
+  background-color: #1d1c16;
+  color: #fff480;
+  padding: 42px 48px;
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+}

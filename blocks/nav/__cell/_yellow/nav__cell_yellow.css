@@ -1,0 +1,6 @@
+.nav__cell_yellow {
+  background-color: #fff480;
+  color: black;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}

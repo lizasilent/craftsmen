@@ -1,0 +1,11 @@
+.nav__square {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  background-image: url(./images/square.png);
+  background-size: contain;
+  min-height: 75px;
+  width: 75px;
+  animation: move 5s linear infinite;
+  opacity: 0.5;
+}

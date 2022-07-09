@@ -1,0 +1,6 @@
+.cell__logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 30px;
+  width: 30px;
+}

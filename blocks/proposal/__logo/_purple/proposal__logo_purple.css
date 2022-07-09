@@ -1,0 +1,9 @@
+.proposal__logo_purple {
+  background-image: url(./images/contacts_logo_purple.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 90px;
+  width: 100px;
+  align-self: flex-end;
+  animation: rotate 10s linear infinite;
+}

@@ -1,0 +1,8 @@
+.proposal__links_inst {
+  background-image: url(./images/inst_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 30px;
+  max-width: 30px;
+  margin: 0 auto;
+}

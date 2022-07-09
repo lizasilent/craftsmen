@@ -1,0 +1,12 @@
+.nav__triangle {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  background-image: url(./images/треуг.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100px;
+  width: 100px;
+  animation: move 5s linear infinite;
+  opacity: 0.5;
+}

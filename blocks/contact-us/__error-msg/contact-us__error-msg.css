@@ -1,0 +1,9 @@
+.contact-us__error-msg {
+  display: none;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #fc7039;
+  font-size: 14px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

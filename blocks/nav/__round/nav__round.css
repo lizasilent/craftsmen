@@ -1,0 +1,12 @@
+.nav__round {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  background-image: url(./images/round.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 80px;
+  width: 80px;
+  animation: move 5s linear infinite;
+  opacity: 0.5;
+}

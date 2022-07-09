@@ -1,0 +1,5 @@
+.cell__logo-top {
+  background-image: url(./images/cell-logo.png);
+  min-height: 70px;
+  width: 70px;
+}

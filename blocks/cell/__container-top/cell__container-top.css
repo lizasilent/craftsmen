@@ -1,0 +1,7 @@
+.cell__container-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+  align-items: center;
+}

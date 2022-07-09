@@ -1,0 +1,5 @@
+.proposal__links_tel {
+  margin: 5px;
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
