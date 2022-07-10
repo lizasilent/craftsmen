@@ -3,11 +3,19 @@
 @import url(./__triangle/nav__triangle.css);
 
 .nav {
+  position: relative;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px;
   padding: 10px;
-  height: 450px;
+  max-height: 450px;
+}
+
+@media screen and (max-width: 769px) {
+
+  .nav {
+    grid-template-columns: 1fr;
+  }
 }
 

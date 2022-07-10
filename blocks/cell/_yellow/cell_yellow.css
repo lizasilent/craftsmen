@@ -4,3 +4,12 @@
   grid-column-start: 2;
   grid-column-end: 4;
 }
+
+@media screen and (max-width: 769px) {
+  .cell_yellow {
+
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 220px;
+  }
+}

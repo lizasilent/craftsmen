@@ -10,3 +10,10 @@
   animation: move 5s linear infinite;
   opacity: 0.5;
 }
+
+
+@media screen and (max-width: 769px) {
+  .nav__triangle {
+    opacity: 0;
+  }
+}

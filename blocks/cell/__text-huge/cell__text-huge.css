@@ -3,3 +3,9 @@
   margin: 40px 0;
   animation: marquee 10s linear infinite;
 }
+
+@media screen and (max-width: 769px) {
+  .cell__text-huge{
+    font-size: 67px;
+  }
+}

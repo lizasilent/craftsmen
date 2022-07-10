@@ -4,3 +4,11 @@
   font-size: 54px;
   margin: 20px 0;
 }
+
+@media screen and (max-width: 769px) {
+  .cell__text-middle {
+    opacity: 1;
+    font-size: 36px;
+
+  }
+}

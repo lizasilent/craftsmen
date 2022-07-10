@@ -2,3 +2,10 @@
   background-color: #fff;
   color: black;
 }
+
+@media screen and (max-width: 769px) {
+  .cell_white {
+    height: 220px;
+  }
+
+}
