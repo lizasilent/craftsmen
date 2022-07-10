@@ -22,3 +22,14 @@
 }
 
 
+@media screen and (max-width: 978px) {
+  .contact-us__input {
+    padding: 20px 30px;
+    font-size: 16px;
+  }
+
+  /* .contact-us #message {
+    grid-row-end: 4;
+  } */
+}
+

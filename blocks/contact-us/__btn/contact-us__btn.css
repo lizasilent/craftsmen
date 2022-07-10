@@ -13,9 +13,18 @@
   font-weight: bold;
 }
 
-/* @media screen and (max-width: 1180px) {
-  .contact-us__form {
+@media screen and (max-width: 1138px) {
+  .contact-us__btn {
     grid-column-end: 1;
     grid-column-start: 4;
+    grid-row-start: 6;
+    /* grid-row-end: 5; */
   }
+}
+
+/* @media screen and (max-width: 978px) {
+  .contact-us__btn {
+
+  }
+
 } */
