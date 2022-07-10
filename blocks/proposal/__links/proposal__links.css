@@ -25,7 +25,7 @@
   transition: 0.5s linear;
 }
 
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 1022px) {
   .proposal__links a {
     padding: 20px 30px;
     font-size: 16px;
@@ -44,7 +44,10 @@
   .proposal__links a {
     padding: 20px 30px;
     font-size: 14px;
+    border: 2px solid #fff480;
   }
+
+
 
 }
 
@@ -68,9 +71,5 @@
 
 }
 
-  .proposal__links a {
-    border: 2px solid #fff480;
-
-}
 
 }

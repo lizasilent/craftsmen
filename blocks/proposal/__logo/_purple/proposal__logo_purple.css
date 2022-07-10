@@ -17,3 +17,9 @@
   }
 
 }
+
+@media screen and (max-width: 762px) {
+  .proposal__logo_purple {
+    opacity: 0;
+  }
+}

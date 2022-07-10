@@ -2,11 +2,18 @@
   font-size: 25px;
 }
 
-@media screen and (max-width: 877px) {
+@media screen and (max-width: 1022px) {
 
   .proposal__text {
     font-size: 16px;
   }
 
+}
+
+@media screen and (max-width: 470px) {
+
+  .proposal__text {
+    font-size: 14px;
+  }
 
 }

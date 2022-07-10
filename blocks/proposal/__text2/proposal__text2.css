@@ -2,10 +2,27 @@
   font-size: 70px;
 }
 
-@media screen and (max-width: 877px) {
+@media screen and (max-width: 1022px) {
 
   .proposal__text2 {
     font-size: 48px;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .proposal__text2 {
+    font-size: 36px;
+  }
+
+}
+
+
+@media screen and (max-width: 470px) {
+
+  .proposal__text2 {
+    font-size: 24px;
   }
 
 }
