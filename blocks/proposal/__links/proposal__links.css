@@ -34,11 +34,51 @@
 
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
 
   .proposal__links a {
     padding: 20px 30px;
     font-size: 14px;
   }
+
+}
+
+@media screen and (max-width: 762px) {
+
+  .proposal__links {
+    grid-gap: 10px;
+  }
+
+  .proposal__links a {
+    padding: 10px 20px;
+  }
+
+}
+
+
+@media screen and (max-width: 725px) {
+
+  .proposal__links {
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+}
+
+
+@media screen and (max-width: 578px) {
+
+  .proposal__links {
+    grid-gap: 5px;
+
+}
+
+  .proposal__links a {
+    grid-gap: 5px;
+    border: 2px solid #fff480;
+
+}
 
 }

@@ -3,3 +3,13 @@
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
+@media screen and (max-width: 725px) {
+
+  .proposal__links_email {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+}

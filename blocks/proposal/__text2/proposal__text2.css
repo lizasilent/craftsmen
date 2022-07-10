@@ -2,10 +2,10 @@
   font-size: 70px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
 
   .proposal__text2 {
-    font-size: 52px;
+    font-size: 48px;
   }
 
 }

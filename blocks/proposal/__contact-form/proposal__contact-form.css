@@ -1,3 +1,10 @@
 .proposal__contact-form {
   padding: 20px;
 }
+
+@media screen and (max-width: 578px)
+{
+  .proposal__contact-form {
+    padding: 20px 20px 20px 0;
+  }
+}
