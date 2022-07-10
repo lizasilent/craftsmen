@@ -34,7 +34,12 @@
 
 
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 830px) {
+
+  .proposal__links {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 
   .proposal__links a {
     padding: 20px 30px;
@@ -56,18 +61,6 @@
 }
 
 
-@media screen and (max-width: 725px) {
-
-  .proposal__links {
-    grid-gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-
-}
-
-}
-
-
 @media screen and (max-width: 578px) {
 
   .proposal__links {
@@ -76,7 +69,6 @@
 }
 
   .proposal__links a {
-    grid-gap: 5px;
     border: 2px solid #fff480;
 
 }

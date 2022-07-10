@@ -18,7 +18,10 @@
     grid-column-end: 1;
     grid-column-start: 4;
     grid-row-start: 6;
-    /* grid-row-end: 5; */
+    grid-row-end: 5;
+
+    /* grid-row-start: 7;
+    grid-row-end: 8; */
   }
 }
 
@@ -26,13 +29,17 @@
   .contact-us__btn {
     padding: 30px 30px;
     font-size: 16px;
+    grid-row-start: 5;
+    grid-row-end: 6;
   }
-
 }
 
 @media screen and (max-width: 899px) {
+
   .contact-us__btn {
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 6;
   }
 }
+
+

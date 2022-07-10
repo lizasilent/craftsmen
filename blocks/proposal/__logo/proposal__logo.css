@@ -8,7 +8,7 @@
   animation: rotate 10s linear infinite;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1000px) {
 
   .proposal__logo {
     min-height: 70px;
