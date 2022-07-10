@@ -7,3 +7,12 @@
   align-self: flex-end;
   animation: rotate 10s linear infinite;
 }
+
+@media screen and (max-width: 830px) {
+
+  .proposal__logo {
+    min-height: 70px;
+    width: 70px;
+  }
+
+}

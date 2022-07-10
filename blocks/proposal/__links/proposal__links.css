@@ -17,6 +17,14 @@
   font-weight: bold;
 }
 
+
+.proposal__links a:hover {
+  background-color: #fff480;
+  color: #1d1c16;
+  font-weight: bold;
+  transition: 0.5s linear;
+}
+
 @media screen and (max-width: 978px) {
   .proposal__links a {
     padding: 20px 30px;
@@ -25,9 +33,12 @@
 }
 
 
-.proposal__links a:hover {
-  background-color: #fff480;
-  color: #1d1c16;
-  font-weight: bold;
-  transition: 0.5s linear;
+
+@media screen and (max-width: 830px) {
+
+  .proposal__links a {
+    padding: 20px 30px;
+    font-size: 14px;
+  }
+
 }

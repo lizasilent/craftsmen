@@ -22,9 +22,17 @@
   }
 }
 
-/* @media screen and (max-width: 978px) {
+@media screen and (max-width: 978px) {
   .contact-us__btn {
-
+    padding: 30px 30px;
+    font-size: 16px;
   }
 
-} */
+}
+
+@media screen and (max-width: 899px) {
+  .contact-us__btn {
+    grid-row-start: 6;
+    grid-row-end: 7;
+  }
+}
