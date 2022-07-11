@@ -9,7 +9,7 @@
   .cell__text-middle {
     opacity: 1;
     font-size: 36px;
-
+    line-height: 1;
   }
 }
 

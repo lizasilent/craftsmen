@@ -3,3 +3,9 @@
   overflow: hidden;
   margin: 0;
 }
+
+@media screen and (max-width: 716px) {
+  .cell__container-middle {
+    white-space: normal;
+  }
+}

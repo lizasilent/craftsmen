@@ -6,3 +6,11 @@
   width: 90px;
   margin: 0 auto;
 }
+
+
+@media screen and (max-width: 596px) {
+  .footer__logo{
+    min-height: 70px;
+    width: 70px;
+  }
+}

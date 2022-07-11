@@ -6,9 +6,16 @@
 
 @media screen and (max-width: 769px) {
   .cell__text-huge{
-    font-size: 67px;
+    font-size: 54px;
   }
 }
+
+@media screen and (max-width: 716px) {
+  .cell__text-huge{
+    animation: none;
+  }
+}
+
 
 @media screen and (max-width: 470px) {
   .cell__text-huge{

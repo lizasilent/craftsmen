@@ -65,11 +65,10 @@
 
 
 @media screen and (max-width: 578px) {
+  .proposal__links a {
+    padding: 10px 10px;
 
-  .proposal__links {
-    grid-gap: 5px;
+}
 
 }
 
-
-}
