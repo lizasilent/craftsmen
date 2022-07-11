@@ -72,3 +72,48 @@
 
 }
 
+@media screen and (max-width: 446px) {
+
+  .proposal__links {
+    grid-gap: 5px;
+  }
+
+  .proposal__links a {
+    font-size: 12px;
+    border: 1px solid #fff480;
+
+}
+
+}
+
+
+@media screen and (max-width: 446px) {
+
+  .proposal__links {
+    grid-gap: 5px;
+  }
+
+  .proposal__links a {
+    font-size: 12px;
+    border: 1px solid #fff480;
+
+}
+
+}
+
+
+@media screen and (max-width: 362px) {
+
+  .proposal__links {
+    grid-gap: 5px;
+
+  }
+
+  .proposal__links a {
+    border: none;
+    padding: 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+}
