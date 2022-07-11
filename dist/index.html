@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Craftsmen</title>
+  <script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+
+  <body class="body">
+    <div class="page">
+      <div class="page__content">
+        <header class="header">
+          <div class="header__logo"></div>
+        </header>
+
+        <main class="main">
+          <nav class="nav">
+            <a href="#" class="cell cell_blue cell__settings">
+              <div class="nav__triangle"></div>
+              <div class="nav__square"></div>
+              <div class="nav__round"></div>
+              <div class="cell__container-top">
+                <p>Craft CMS</p>
+                <div class="cell__logo cell__logo-top"></div>
+              </div>
+
+              <div class="cell__container-middle">
+                <p class="cell__text-huge">We are specialized in Craft CMS.</p>
+              </div>
+
+              <div class="cell__container-bottom">
+                <p class="cell__text-small">See our services</p>
+                <div class="cell__logo cell__logo_blue"></div>
+              </div>
+            </a>
+
+            <a href="#" class="cell cell_white cell__settings">
+              <div class="cell__container-middle">
+                <p class="cell__text-middle">View our showcase.</p>
+              </div>
+
+              <div class="cell__container-bottom">
+                <p class="cell__text-small">Work</p>
+                <div class="cell__logo cell__logo_white"></div>
+              </div>
+            </a>
+            <a href="#proposal" class="cell cell_black cell__settings">
+              <div class="cell__container-middle">
+                <p class="cell__text-middle">Learn more about us.</p>
+              </div>
+
+              <div class="cell__container-bottom">
+                <p class="cell__text-small">About us</p>
+                <div class="cell__logo cell__logo_black"></div>
+              </div>
+            </a>
+            <a href="#contact-us" class="cell cell_yellow cell__settings">
+              <div class="cell__container-middle">
+                <p class="cell__text-middle">
+                  Let's to talk business. Get in touch!
+                </p>
+              </div>
+
+              <div class="cell__container-bottom">
+                <p class="cell__text-small">Contact us</p>
+                <div class="cell__logo cell__logo_yellow"></div>
+              </div>
+            </a>
+          </nav>
+
+          <div class="proposal proposal_purple cell__settings" id="proposal">
+            <div class="proposal__container">
+              <div class="proposal__text-container">
+                <p class="proposal__text">WHAT WE DO</p>
+                <p class="proposal__text2">
+                  We provide clients <br />
+                  with <i>Crafty</i> web <br />
+                  solutions, developed <br />
+                  with <i>skill & passion.</i>
+                </p>
+              </div>
+              <div class="proposal__logo_purple"></div>
+            </div>
+          </div>
+
+          <div class="proposal proposal_olive cell__settings" id="contact-us">
+            <div class="proposal__container">
+              <div class="proposal__text-container">
+                <p class="proposal__text">GET IN TOUCH!</p>
+                <p class="proposal__text2">
+                  Do you have a question, <br />
+                  an idea, or a project you <br />
+                  need help with? <br />
+                  Contact us!
+                </p>
+
+                <div class="proposal__contact-form">
+                  <nav class="proposal__links">
+                    <a href="email:info@thecraftsmen.tech" class="proposal__links_email"
+                      >info@thecraftsmen.tech</a
+                    >
+                    <a href="tel:+359878391242" class="proposal__links_tel">+359878391242</a>
+                    <a href="https://www.instagram.com/the_Craftsmen_Agency/" target="_blank">
+
+                      <div class="proposal__links_fb"></div>
+                    </a>
+                    <a href="https://www.facebook.com/theCraftsmenAgency" target="_blank">
+
+
+                      <div class="proposal__links_inst"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/uas/login-submit" target="_blank">
+                      <div class="proposal__links_linkedin"></div>
+                    </a>
+                  </nav>
+                </div>
+              </div>
+
+              <div class="proposal__logo"></div>
+            </div>
+          </div>
+
+          <div class="contact-us">
+            <form class="contact-us__form form" name="contact-us" novalidate>
+              <input
+                class="contact-us__input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                minlength="2"
+                required
+              />
+
+              <input
+                class="contact-us__input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+
+              <input
+                class="contact-us__input"
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+                required
+              />
+
+              <input
+                class="contact-us__input"
+                type="text"
+                name="message"
+                id="message"
+                placeholder="Message"
+                required
+              />
+
+              <button class="contact-us__btn" type="submit" id="button">
+                Send
+              </button>
+
+              <span class="contact-us__error-msg" id="name-error"></span>
+              <span class="contact-us__error-msg" id="email-error"></span>
+              <span class="contact-us__error-msg" id="subject-error"></span>
+              <span class="contact-us__error-msg" id="message-error"></span>
+            </form>
+          </div>
+        </main>
+
+        <footer class="footer">
+          <div class="footer__logo"></div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

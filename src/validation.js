@@ -2,6 +2,8 @@
 // Функция isValid теперь принимает formElement и inputElement,
 // а не берёт их из внешней области видимости
 
+console.log("все подключено");
+
 const isValid = (formElement, inputElement) => {
   if (!inputElement.validity.valid) {
     // showInputError теперь получает параметром форму, в которой
@@ -16,7 +18,7 @@ const isValid = (formElement, inputElement) => {
 const showInputError = (formElement, inputElement, errorMessage) => {
   // Находим элемент ошибки внутри самой функции
   const errorElement = formElement.querySelector(`#${inputElement.id}-error`);
-
+console.log("есть ошибка");
   // Показываем ошибку, заменяем текст ошибки на системный, подсвечиваем поле
   inputElement.classList.add('contact-us__error-style');
   errorElement.textContent = errorMessage;

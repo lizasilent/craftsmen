@@ -6,7 +6,7 @@
   background-size: contain;
   min-height: 75px;
   width: 75px;
-  animation: move 5s linear infinite;
+  animation: move 8s linear infinite;
   opacity: 0.5;
 }
 

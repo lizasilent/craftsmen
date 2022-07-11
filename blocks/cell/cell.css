@@ -61,8 +61,3 @@
 .cell_blue:hover .cell__container-middle {
   opacity: 0;
 }
-
-
-@media screen and (max-width: 769px) {
-  
-}
