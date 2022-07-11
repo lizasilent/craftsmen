@@ -3,3 +3,17 @@
   min-height: 70px;
   min-width: 70px;
 }
+
+@media screen and (max-width: 769px) {
+  .cell__logo-top {
+    min-height: 50px;
+    min-width: 50px;
+  }
+}
+
+
+/* @media screen and (max-width: 470px) {
+  .cell__container-top{
+    font-size: 18px;
+  }
+} */

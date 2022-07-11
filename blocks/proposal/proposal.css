@@ -16,7 +16,9 @@
 @import url(./_purple/_purple.css);
 
 .proposal {
+  position: realtive;
   margin: 20px;
+
 }
 
 

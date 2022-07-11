@@ -5,3 +5,17 @@
   font-size: 30px;
   align-items: center;
 }
+
+@media screen and (max-width: 769px) {
+  .cell__container-top {
+    font-size: 24px;
+
+  }
+}
+
+
+@media screen and (max-width: 470px) {
+  .cell__container-top{
+    font-size: 18px;
+  }
+}

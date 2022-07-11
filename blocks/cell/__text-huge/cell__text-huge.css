@@ -9,3 +9,9 @@
     font-size: 67px;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .cell__text-huge{
+    font-size: 36px;
+  }
+}

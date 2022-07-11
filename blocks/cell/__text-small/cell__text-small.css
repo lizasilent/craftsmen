@@ -4,3 +4,13 @@
   font-weight: bold;
   text-decoration: none;
 }
+
+@media screen and (max-width: 769px) {
+  .cell__text-small {
+    opacity: 1;
+    font-size: 16px;
+
+  }
+}
+
+

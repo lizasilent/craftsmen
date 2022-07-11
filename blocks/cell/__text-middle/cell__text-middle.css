@@ -12,3 +12,10 @@
 
   }
 }
+
+
+@media screen and (max-width: 470px) {
+  .cell__text-middle{
+    font-size: 24px;
+  }
+}
