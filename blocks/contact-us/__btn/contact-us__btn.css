@@ -39,4 +39,10 @@
   }
 }
 
+@media screen and (max-width: 726px) {
+  .contact-us__btn {
+    padding: 20px 30px;
+    font-size: 14px;
+  }
 
+}

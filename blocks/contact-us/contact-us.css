@@ -9,7 +9,7 @@
 
 .contact-us {
   background-color: #000000;
-  padding: 10px 30px;
+  padding: 10px 40px;
 }
 
 .contact-us #message {
@@ -36,4 +36,11 @@
     grid-row-start: 4;
     grid-row-end: 6;
 }
+}
+
+@media screen and (max-width: 726px) {
+  .contact-us #message {
+    padding: 42px 48px 42px 30px;
+    border-radius: 30px;
+  }
 }

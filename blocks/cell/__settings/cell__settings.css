@@ -2,3 +2,9 @@
   border-radius: 65px;
   padding: 50px;
 }
+
+@media screen and (max-width: 438px) {
+  .cell__settings {
+    padding: 30px;
+  }
+}
